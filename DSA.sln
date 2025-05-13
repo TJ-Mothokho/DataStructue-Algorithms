@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort.csproj", "{D6A167AD-234F-4892-88AF-F2CB21B3021C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practise", "Practise", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D Array", "2D Array\2D Array.csproj", "{4C6639AE-3231-4FD1-A233-F63B7A9E49B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +43,16 @@ Global
 		{D6A167AD-234F-4892-88AF-F2CB21B3021C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6A167AD-234F-4892-88AF-F2CB21B3021C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6A167AD-234F-4892-88AF-F2CB21B3021C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6639AE-3231-4FD1-A233-F63B7A9E49B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6639AE-3231-4FD1-A233-F63B7A9E49B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6639AE-3231-4FD1-A233-F63B7A9E49B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6639AE-3231-4FD1-A233-F63B7A9E49B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C6639AE-3231-4FD1-A233-F63B7A9E49B9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACEE5B9D-4FB8-4C6C-B486-3488379D2F21}
